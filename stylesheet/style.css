@@ -1,0 +1,33 @@
+.header-title{
+    color: purple;
+    font-family: sans-serif;
+    text-align: center;
+    border: 2px solid limegreen;
+    padding: 10px 0px;
+}
+
+.navigation-bar{
+    border: 2px solid orchid;
+    margin: 10px auto;
+}
+
+.nav-list li{
+    list-style-type: none; 
+    margin-left:auto ;
+    /* float: right; */
+    & a{
+        text-decoration: none;
+        font-size: 25px;
+        color: limegreen;
+    }
+    & a::before{
+        content: '&#x26BD';
+    }
+
+}
+img{
+    min-height: 200px;
+    min-width: 200px;
+    margin-left:50%;
+    
+}
